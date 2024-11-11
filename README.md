@@ -18,15 +18,15 @@
    Ensure you are inside the `Task Manager` project folder, and then navigate to the `backend` directory:
    ```bash
    cd backend
-2. **Install required modules**
+2. **Install required modules**:
    ```bash
    npm install jsonwebtoken mongoose express bcryptjs cors dotenv
-3. **Update the .env file**
+3. **Update the .env file**:
    ```bash
    PORT=3006
    MONGO_URI=<your_mongo_database_uri>
    JWT_SECRET=<your_jwt_secret>
-4. **Start the server**
+4. **Start the server**:
     ```bash
     node server.js
 
@@ -41,15 +41,19 @@
 - `react-dom`
 
 ## Installation Steps:
-
-1. **Navigate to the Frontend Folder**:
+1. **Create the React App**
+   Ensure you are inside the `Task Manager` project folder, and then create the react app `frontend` and move the folder pages and services in src folder of `frontend`  and replace contents of App.js with provided App.js file:
+   ```bash
+   npx create-react-app frontend
+   
+2. **Navigate to the Frontend Folder**:
    Ensure you are inside the `Task Manager` project folder, and then navigate to the `frontend` directory:
    ```bash
    cd frontend
-2. **Install required modules**
+3. **Install required modules**:
    ```bash
    node install axios react-router-dom react react-dom
-3. **Start the React Application**
+4. **Start the React Application**:
     ```bash
     npm start
 
